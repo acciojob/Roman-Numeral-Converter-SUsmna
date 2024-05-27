@@ -6,7 +6,13 @@ function convertToRoman(num) {
       3:['L', 50], 
       4:['X', 10], 
       5:['V', 5], 
-      6:['I', 1]
+      6:['I', 1],
+	  7:['CM',900],
+	  8:['CD',400],
+	  9:['XC',90],
+	  10:['XL',40],
+	  11:['IX',9],
+	  12:['IV',4]
     };
 
   //your code here
@@ -18,14 +24,10 @@ function convertToRoman(num) {
 		}
 	}
 	return romanNumeral;
-
 }
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
 // console.log(convertToRoman(36));
-
-
-
 
 // do not edit below this line
 module.exports = convertToRoman
